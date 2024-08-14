@@ -1,5 +1,5 @@
 <script lang="ts">
-import Card from "./components/card.vue";
+import Card from "../components/card.vue";
 export default {
   name: "Home",
   components: { Card },
@@ -14,12 +14,12 @@ export default {
       "
     >
       <div
-        class="absolute inset-0 bg-gradient-to-b from-transparent to-black via-black p-5"
+        class="absolute inset-0 bg-gradient-to-b from-transparent via-black p-5"
       >
         <div class="flex h-1/2">
           <div class="flex gap-2 h-10 w-1/3">
             <img
-              src="./assets/image/image-dumbsound.png"
+              src="../assets/image/image-dumbsound.png"
               alt="logo"
               class="w-10 h-10"
             />
@@ -49,10 +49,16 @@ export default {
             </button>
           </div>
         </div>
-        <div class="text-center text-red-500 text-xl font-bold">
+        <div class="text-center text-red-500 text-xl font-bold mt-20">
           <h1>Dengarkan Dan Rasakan</h1>
         </div>
-        <div class="pt-20 pl-20">
+        <div class="pt-20 pl-2 mb-4 flex flex-wrap justify-center gap-4">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
           <Card />
         </div>
       </div>

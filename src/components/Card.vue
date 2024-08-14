@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div class="card bg-base-100 w-52 shadow-xl">
+  <div class="card bg-zinc-950 w-52 shadow-xl">
     <figure class="px-3 pt-3 h-52">
       <img
         src="https://www.microdotboutique.com/cdn/shop/products/Couple.jpg?v=1652452551"
