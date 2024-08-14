@@ -65,12 +65,12 @@ export default {
               />
             </label>
             <div class="card-actions justify-end">
-              <button class="btn btn-primary w-full">Login</button>
+              <button class="btn btn-error w-full">Login</button>
             </div>
             <p class="">
               Don't have an account? Klik
               <a
-                class="font-bold"
+                class="font-bold text-red-500"
                 href="#"
                 >Here</a
               >
