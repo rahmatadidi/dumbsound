@@ -1,8 +1,4 @@
-<script lang="ts">
-export default {
-  name: "Register",
-};
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="w-full h-screen">

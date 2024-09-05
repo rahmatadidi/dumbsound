@@ -1,10 +1,7 @@
-<script lang="ts">
+<script setup lang="ts">
 import Card from "../components/Card.vue";
-export default {
-  name: "Home",
-  components: { Card },
-};
 </script>
+
 <template>
   <div class="w-full h-screen">
     <div
@@ -41,24 +38,22 @@ export default {
             </div>
           </div>
           <div class="flex gap-4 w-1/3 justify-end">
-            <button class="btn btn-outline w-[100px] h-[30px] text-white">
-              Login
-            </button>
-            <button class="btn btn-error w-[100px] h-[30px] text-white">
-              Register
-            </button>
+            <router-link to="/login">
+              <button class="btn btn-outline w-[100px] h-[30px] text-white">
+                Login
+              </button>
+            </router-link>
+            <router-link to="/register">
+              <button class="btn btn-error w-[100px] h-[30px] text-white">
+                Register
+              </button>
+            </router-link>
           </div>
         </div>
         <div class="text-center text-red-500 text-xl font-bold mt-20">
           <h1>Dengarkan Dan Rasakan</h1>
         </div>
         <div class="pt-20 pl-2 mb-4 flex flex-wrap justify-center gap-4">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
           <Card />
         </div>
       </div>
