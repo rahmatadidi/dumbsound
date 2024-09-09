@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <div class="w-full h-screen">
     <div
@@ -65,11 +63,13 @@
             </div>
             <p class="">
               Don't have an account? Klik
-              <a
-                class="font-bold text-red-500"
-                href="#"
-                >Here</a
-              >
+              <router-link to="/register">
+                <a
+                  class="font-bold text-red-500"
+                  href="#"
+                  >Here</a
+                >
+              </router-link>
             </p>
           </div>
         </div>
@@ -77,3 +77,4 @@
     </div>
   </div>
 </template>
+<script setup lang="ts"></script>

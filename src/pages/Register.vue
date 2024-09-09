@@ -101,11 +101,13 @@
             </div>
             <p>
               Already have an account? Klik
-              <a
-                class="font-bold text-red-500"
-                href="#"
-                >Here</a
-              >
+              <router-link to="/login">
+                <a
+                  class="font-bold text-red-500"
+                  href="#"
+                  >Here</a
+                >
+              </router-link>
             </p>
           </div>
         </div>

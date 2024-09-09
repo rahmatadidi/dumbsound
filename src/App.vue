@@ -4,10 +4,7 @@
 // import Register from "./pages/Register.vue";
 // import Payment from "./pages/Payment.vue";
 </script>
-
 <template>
-  <div id="app">
-    <Home />
-    <router-view></router-view>
-  </div>
+  <Home />
+  <router-view />
 </template>
